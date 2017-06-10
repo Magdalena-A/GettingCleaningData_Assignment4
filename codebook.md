@@ -1,32 +1,25 @@
 Variable descriptions
-=====================
+---------------------
 
-activities	-	activity description, activity performed during measurment
-subject ID	-	unique subject ID, subject performing activity
+**activities**: Accelerometer measured signal for gravity
 
-timeSignal	-	Time domain signals
-frequencySignal	-	Frequency domain signals, obtained by applying Fast Fourier Transform (FFT)
-
-Body Acceleration	-	Accelerometer measured signal for body movements
-Gravity Acceleration - 	Accelerometer measured signal for gravity
-
-Body gyroscope 	-	Gyroscope signal for body movements
-Gravity Gyroscope	-	Gyroscope signal for gravity
+**Body gyroscope**: Gyroscope signal for body movements
+**Gravity Gyroscope**: Gyroscope signal for gravity
 
 
-Jerk	-	Jerk signals, based on body linear accelerationa and angular velocity
-Magnitude	-	Magnitude of three-dimensional signals XYZ signals
+**Jerk**: Jerk signals, based on body linear accelerationa and angular velocity
+**Magnitude**: Magnitude of three-dimensional signals XYZ signals
 
-mean	-	Mean value
-standard deviation	-	Standard deviation
+**mean**: Mean value
+**standard deviation**: Standard deviation
 
-X axis	-	value derived from X axis/direction
-Y axis	-	value derived from Y axis/direction
-Z axis	-	value derived from Z axis/direction
+X axis: value derived from X axis/direction
+Y axis: value derived from Y axis/direction
+Z axis: value derived from Z axis/direction
 
 
 Feature Selection 
-=================
+-----------------
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeSignal_Acceleration-XYZ and timeSignal_Gravity-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeSignal_Body_Acceleration-XYZ and timeSignal_Gravity_Acceleration-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -75,7 +68,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 
 Complete set of variables
-==========================
+-------------------------
 
 activities
 subject_ID
